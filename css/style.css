@@ -517,6 +517,55 @@ footer {
   text-decoration: none;
 }
 
+/* Network Section */
+.network-section {
+  padding: 40px 24px;
+  background: rgba(0, 0, 0, 0.3);
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+
+.network-section > div h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--primary);
+}
+
+.network-section > div ul {
+  list-style: none;
+}
+
+.network-section > div ul li {
+  margin-bottom: 6px;
+}
+
+.network-section > div ul li a {
+  color: var(--gray);
+  text-decoration: none;
+  font-size: 0.8125rem;
+  transition: color 0.3s;
+}
+
+.network-section > div ul li a:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 900px) {
+  .network-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .network-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
   .banner-section {
