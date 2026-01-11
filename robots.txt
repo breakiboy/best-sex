@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://best-sex.ch/sitemap.xml
